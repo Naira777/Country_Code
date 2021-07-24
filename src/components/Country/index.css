@@ -1,0 +1,22 @@
+.dropdown {
+
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    background: #E4E0E2;
+    margin: 100px 300px 30px;
+    box-shadow: 0px  0px 10px 1px  #E6C1E6;
+    border: none;
+    outline: none;
+    font-size: 17px;
+
+   
+} 
+
+@media (max-width: 768px) {
+     .dropdown { 
+        width: 280px;
+        height: 40px;  
+        margin: 40px 60px;
+     }
+ }
